@@ -1,0 +1,27 @@
+.text-adjust {
+    color: black;
+ }
+
+ .mat-divider {
+    border-top-color: rgba(0, 0, 0, 0.12);
+}
+.mat-list{
+    width: 70%;
+}
+
+a:link {
+    text-decoration: none;
+    color:green;
+  }
+  a:visited {
+    text-decoration: none;
+    color:rgb(122, 177, 129);
+  }
+  a:hover {
+    text-decoration: underline;
+    color:rgb(1, 63, 1);
+  }
+  a:active {
+    text-decoration: underline;
+    color:green;
+  }

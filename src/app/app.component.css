@@ -1,0 +1,23 @@
+.logo{
+padding:20px;
+text-align:center;
+
+}
+.title{
+padding:10px;
+text-align:center;
+font-size: 50px;
+
+}
+.campo {
+padding:10px;
+text-align:center;
+}
+.detail{
+padding:10px;
+text-align:left;
+color:rgb(0, 0, 0);
+}
+.position{
+    margin-left:30em
+}

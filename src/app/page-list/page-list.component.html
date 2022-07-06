@@ -1,0 +1,16 @@
+<div>        
+  <mat-list>
+    <mat-list-item *ngFor="let page of pages">       
+      <h3 matLine><a
+        target="_blank"
+        [href]="'https://en.wikipedia.org?curid=' + page.pageid"
+      >
+        {{ page.title }}
+      </a> </h3>
+      <p matLine> {{page.subject}} </p>
+      <p matLine class="text-adjust" [innerHTML]="page.snippet"></p>
+      <p matLine class="text-adjust"> {{ page.timestamp }}</p>   
+      <mat-divider></mat-divider>  
+    </mat-list-item>
+  </mat-list>
+</div>

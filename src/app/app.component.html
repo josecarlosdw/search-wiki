@@ -1,0 +1,15 @@
+<div  id="layoutContainer" style = "height:100px;">
+    <div class="logo"><img src="../assets/images/wiki.png" width="140px" alt="wiki search" /></div>
+    <h1 class="title">search on wiki</h1>  
+
+    <div layout="row" layout-xs="column">
+
+        <div flex class="campo">
+            <app-search-bar (submitted)="onTerm($event)"></app-search-bar>
+        </div>
+
+        <div flex="20" class="details position">
+            <app-page-list [pages]="pages"></app-page-list>
+        </div>
+    </div>
+</div>
